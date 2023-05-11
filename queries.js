@@ -1,9 +1,9 @@
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
+  user: 'root',
+  host: 'dpg-chekl467avj55m4lnlr0-a',
   database: 'libros_11',
-  password: 'root',
+  password: 'd8oA9sOivZUGP8bYES2hQmlBRNj1T9Wz',
   port: 5432,
 })
 const getGeneros = (request, response) => {
